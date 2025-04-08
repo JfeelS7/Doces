@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\DocesGit\\Doces\\Doces.Api\\Doces.Api.csproj": {}
+    "c:\\projects\\DocesGit\\Doces\\Doces.Api\\Doces.Api.csproj": {}
   },
   "projects": {
-    "C:\\projects\\DocesGit\\Doces\\Doces.Api\\Doces.Api.csproj": {
+    "c:\\projects\\DocesGit\\Doces\\Doces.Api\\Doces.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\DocesGit\\Doces\\Doces.Api\\Doces.Api.csproj",
+        "projectUniqueName": "c:\\projects\\DocesGit\\Doces\\Doces.Api\\Doces.Api.csproj",
         "projectName": "Doces.Api",
-        "projectPath": "C:\\projects\\DocesGit\\Doces\\Doces.Api\\Doces.Api.csproj",
+        "projectPath": "c:\\projects\\DocesGit\\Doces\\Doces.Api\\Doces.Api.csproj",
         "packagesPath": "C:\\Users\\João Felipe\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\DocesGit\\Doces\\Doces.Api\\obj\\",
+        "outputPath": "c:\\projects\\DocesGit\\Doces\\Doces.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\João Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -47,6 +47,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.3, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.3.0, )"
             }
           },
           "imports": [
