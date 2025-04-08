@@ -81,6 +81,7 @@ app.MapPost("/doces", (NovoDoceDto novoDoce) =>
     .Produces(StatusCodes.Status400BadRequest)
     .Produces(StatusCodes.Status500InternalServerError);
 
+// Atualiza um doce existente
 app.MapPut("/doces/{id:guid}", (Guid id, AtualizarDoceDto atualizarDoce) =>
 {
     var index = doces.FindIndex(d => d.Id == id);
