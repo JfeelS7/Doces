@@ -1,10 +1,11 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Doces.Api.Dtos;
 
 public record class AtualizarDoceDto(
-    string Nome,
-    string Descricao,
-    decimal Preco,
-    DateOnly DataCriacao,
+    [Required][StringLength(60)]string Nome,
+    [Required][StringLength(100)]string Descricao,
+    [Required][Range(1, 500)]decimal Preco,
     bool Ativo = true
 );
 
